@@ -1,0 +1,118 @@
+body {
+  background-color: deepskyblue;
+}
+
+.button {
+  width: fit-content;
+  height: fit-content;
+  min-width: 115px;
+  min-height: 40px;
+  background-color: aqua;
+  border: 5px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.button.topPanel {
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
+
+.input {
+  width: 600px;
+  height: 28px;
+  margin-bottom: 2px;
+  border: 5px solid blue;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+
+.input.topPanel {
+  width: 250px;
+  margin: 5px;
+}
+
+.input.topPanel.select {
+  height: 40px;
+  width: 250px;
+  margin: 5px;
+}
+
+.input {
+  width: 600px;
+  height: 28px;
+  margin-bottom: 2px;
+  border: 5px solid blue;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+
+.input.Task {
+  width: 300px;
+  height: 28px;
+}
+
+.button.newToDoList {
+  width: fit-content;
+  height: fit-content;
+}
+
+.wrapperInput {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin-top: 10px;
+  margin-left: -100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+  font-weight: bold;
+}
+
+.containerTopPanel {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  min-width: 1500px;
+  margin-top: 10px;
+  margin-left: -150px;
+}
+
+.text {
+  size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+.text.result {
+  margin-left: 300px;
+  text-align: left;
+}
+
+.popover.information {
+  height: fit-content;
+  background-color: lightgreen;
+  border: 5px solid green;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}

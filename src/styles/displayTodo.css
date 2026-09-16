@@ -1,0 +1,155 @@
+.containerDisplay {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgreen;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.containerDisplay.header {
+  color: white;
+  background-color: lightgreen;
+  height: fit-content;
+  width: fit-content;
+  min-width: 1224px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 255, 140, 0.194);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(0, 255, 221, 0.352);
+}
+
+.tableCell {
+  word-wrap: break-word;
+  align-items: flex-end;
+  width: 800px;
+}
+
+.tableHeadExpandCollapseTodoList {
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 10px;
+  color: blue;
+  font-size: 29px;
+  font-weight: bolder;
+  width: 28px;
+  height: 28px;
+}
+
+.tableHeadTodoListNo {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 100px;
+}
+
+.tableHeadTodoListID {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 100px;
+}
+
+.tableHeadTodoListTitle {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: center;
+  width: 685px;
+}
+
+.tableHeadIsEditingTodoListTitle {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 689px;
+}
+
+.tableHeadEditTitleTodoListButton {
+  word-wrap: break-word;
+  align-items: flex-end;
+}
+
+.tableHeadDeleteTodoListButton {
+  word-wrap: break-word;
+  align-items: flex-end;
+}
+
+.tableBodyTaskNo {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 50px;
+  width: 100px;
+}
+
+.tableBodyTaskDescription {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 718px;
+}
+
+.tableBodyIsEditingTaskDescription {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 718px;
+}
+
+.tableBodyTaskIsInProgressIcon {
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 10px;
+  color: blue;
+  font-size: 29px;
+  font-weight: bolder;
+  width: 28px;
+  height: 28px;
+}
+
+.tableBodyTaskIsCompleted {
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 10px;
+  color: green;
+  font-size: 29px;
+  font-weight: bolder;
+  width: 28px;
+  height: 28px;
+}
+
+.tableHeadEditTaskInTodoListButton {
+  word-wrap: break-word;
+  align-items: flex-end;
+}
+
+.tableBodyDeleteTaskButton {
+  word-wrap: break-word;
+  align-items: flex-end;
+}
+
+.tableBodyAddTaskButton {
+  word-wrap: break-word;
+  align-items: flex-end;
+  width: 80px;
+}
+
+.tableFooterAddNewTaskInput {
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align: left;
+  width: 915px;
+}
+
+.ratio {
+  height: fit-content;
+  width: fit-content;
+  border: 2px solid green;
+  border-radius: 90px;
+  padding: 1px;
+}
